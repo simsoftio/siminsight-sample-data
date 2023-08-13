@@ -1,0 +1,169 @@
+[
+    {
+        "version": "0.1",
+        "msgId": "0f0958d0-6f47-43a7-99c3-e8185b110263",     # <--- msgId : siminsight client generated
+        "msgType": "regression",
+        "msgData": {
+            "action": "start|end",
+            "id": "regr_<ms_ts(epoch)>_seed(3)", # <-- siminsight client generated [same for start and end]
+            "name": "regr_166bad16",
+            "cmd": "regr start usb master",
+            "component": "usb",
+            "subComponent": ["subBlk01"],  # <-- optional
+            "config" : 10,
+            "dir": "/home/scratch/savannah/gipa/regress/usb/regr_166bad16",
+            "host" : "pro798",
+            "seed" : "1413817172",
+            "branch": {
+                "name": "master",
+                "version": "f0278f76-0037-4dac-aa2f-11b33dd1"
+            },
+            "time": 1688830732553,
+            "jobId" : "e8185b110263", # <-- customer generated
+            "jobs": {
+                "build": 1,
+                "test": 2,
+                "coverage" : 1
+            },
+            "resources" : {
+                "ram" : 2,
+                "cpuCores" : 4,
+                "machines" : 5,
+                "licenses" : 2
+            },
+            "project": "savannah",
+            "org" : "hd_vision",
+            "user": "gipa",
+            "customer" : "cisco",
+            "result" : "pass|fail|error|aborted|timeout|other",
+            "signature" : {
+                "msg" : "cover43:unknown",
+                "code" : 13123
+            },
+            "metadata" : {
+                
+            }
+        },
+        "msgMetadata": {
+            "createTime" : 1688830732553,
+            "client" : "python",
+            "checksum" : "4700b0c7104da316d34357f17d0fb05989e35d0a8ab0495ecf813b36a009a6f8"
+        }
+    },
+    {
+        "version": "0.1",
+        "msgId": "0f0958d0-6f47-43a7-99c3-e8185b110263",
+        "msgType": "build",
+        "msgData": {
+            "action": "start|end",
+            "name" : "build_1234",
+            "id": "build_<ms_ts(epoch)>_seed(3)",  # <-- siminsight client generated [same for start and end]
+            "regrId": "regr_<ms_ts(epoch)>_seed(3)",          
+            "number": "1",
+            "cmd": "make build jdp master",
+            "host" : "pro798",
+            "seed" : "1413817172",
+            "dir": "/home/scratch/savannah/gipa/regress/jdp/regr_5e57a6c9/build",
+            "time": 1688830732553,
+            "result" : "pass|fail|error|aborted|timeout|other",
+            "project": "savannah",
+            "org" : "hd_vision",
+            "user": "gipa",
+            "customer" : "cisco",
+            "signature" : {
+                "msg" : "",
+                "code" : 1221
+            },
+            "metadata" : {
+                
+            }
+        },
+        "msgMetadata": {
+            "createTime" : 1688830732553,
+            "client" : "python",
+            "checksum" : "4700b0c7104da316d34357f17d0fb05989e35d0a8ab0495ecf813b36a009a6f8"
+        }
+    },
+    {
+        "version": "0.1",
+        "msgId": "0f0958d0-6f47-43a7-99c3-e8185b110263",
+        "msgType": "test",
+        "msgData": {
+            "action": "start|end",
+            "name" : "test_1234",
+            "id": "test_<ms_ts(epoch)>_seed(3)", # <-- siminsight client generated [same for start and end]
+            "regrId": "regr_<ms_ts(epoch)>_seed(3)",
+            "buildId" : "c2bda2c2",
+            "cmd": "make test ack master",
+            "host" : "pro728",
+            "seed" : "1413817172",
+            "dir": "/home/scratch/nile/dikar/regress/ebl/regr_c7993777/test",
+            "time": 1688830732553,
+            "group" : "grp-01",
+            "cycles" :  "82219",
+            "result" : "pass|fail|error|aborted|timeout|other",
+            "project": "savannah",
+            "org" : "hd_vision",
+            "user": "gipa",
+            "customer" : "cisco",
+            "waveformFile" : "/home/scratch/nile/dikar/regress/ebl/regr_c7993777/test/waveform.txt",
+            "signature" : {
+                "msg" : "sign07:unknown",
+                "code" : 23234
+            },
+            "metadata" : {
+                
+            }
+        },
+        "msgMetadata": {
+            "createTime" : 1688830732553,
+            "client" : "python",
+            "checksum" : "4700b0c7104da316d34357f17d0fb05989e35d0a8ab0495ecf813b36a009a6f8"
+        }  
+    },
+    {
+        "version": "0.1",
+        "msgId": "0f0958d0-6f47-43a7-99c3-e8185b110263",
+        "msgType": "coverage",
+        "msgData": {
+            "action": "start|end",
+            "name" : "cover_123",
+            "id": "coverage_<ms_ts(epoch)>_seed(3)", # <-- siminsight client generated [same for start and end]
+            "regrId" : "regr_<ms_ts(epoch)>_seed(3)",
+            "buildId" : "build_<ms_ts(epoch)>_seed(3)",
+            "cmd": "make coverage ack master",
+            "host" : "pro728",
+            "seed" : "1413817172",
+            "dir": "/home/scratch/nile/dikar/regress/ebl/regr_c7993777/coverage",
+            "time": 1688830732553,
+            "project": "savannah",
+            "org" : "hd_vision",
+            "user": "gipa",
+            "customer" : "cisco",
+            "coverage" :  {
+                "code" : {
+                    "line" : 92,
+                    "statement" : 76,
+                    "condition" : 45,
+                    "expression": 56,
+                    "toggle" : 34,
+                    "total" : 45
+                },
+                "functional" : 100,
+                "file": "/home/scratch/nile/dikar/regress/ebl/regr_c7993777/coverage/cover.txt"
+            },
+            "result" : "pass|fail|error|aborted|timeout|other",
+            "signature" : {
+                "msg" : "cover43:unknown",
+                "code" : 2433
+            },
+            "metadata" : {
+            }
+        },
+        "msgMetadata": {
+            "createTime" : 1688830732553,
+            "client" : "python",
+            "checksum" : "4700b0c7104da316d34357f17d0fb05989e35d0a8ab0495ecf813b36a009a6f8"
+        }
+    }
+]
