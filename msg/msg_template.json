@@ -32,10 +32,19 @@
                 "coverage" : 0
             },
             "resources" : {
-                "ram" : 2,
-                "cpuCores" : 4,
-                "machines" : 5,
-                "licenses" : 2
+                "machine" : {
+                    "name" : "machine1",
+                    "ram" : 2,
+                    "cpuCores" : 4
+                },
+                "licenses" : [
+                    {
+                        "name" : "Lic1"
+                    },
+                    {
+                        "name" : "Lic2"
+                    }
+                ]
             },
             "project": "savannah",
             "org" : "hd_vision",
@@ -88,10 +97,19 @@
                 "code" : 1221
             },
             "resources" : {
-                "ram" : 2,
-                "cpuCores" : 4,
-                "machines" : 5,
-                "licenses" : 2
+                "machine" : {
+                    "name" : "machine1",
+                    "ram" : 2,
+                    "cpuCores" : 4
+                },
+                "licenses" : [
+                    {
+                        "name" : "Lic1"
+                    },
+                    {
+                        "name" : "Lic2"
+                    }
+                ]
             },
             "metadata" : {
                 
@@ -136,10 +154,19 @@
                 "code" : 23234
             },
             "resources" : {
-                "ram" : 2,
-                "cpuCores" : 4,
-                "machines" : 5,
-                "licenses" : 2
+                "machine" : {
+                    "name" : "machine1",
+                    "ram" : 2,
+                    "cpuCores" : 4
+                },
+                "licenses" : [
+                    {
+                        "name" : "Lic1"
+                    },
+                    {
+                        "name" : "Lic2"
+                    }
+                ]
             },
             "metadata" : {
                 
@@ -166,7 +193,7 @@
             "cmd": "make coverage ack master",
             "host" : "pro728",
             "seed" : 1413817172,
-            "dir": "/home/scratch/nile/dikar/regress/ebl/regr_c7993777/coverage",
+            "dir": "/home/scratch/nile/dikar/regress/ebl/regr_c7993777/coverage/cover_123",
             "jobId" : "e8185b110263", # <-- customer generated
             "time_ms": 1688830732553,
             "project": "savannah",
@@ -192,10 +219,19 @@
                 "code" : 2433
             },
             "resources" : {
-                "ram" : 2,
-                "cpuCores" : 4,
-                "machines" : 5,
-                "licenses" : 2
+                "machine" : {
+                    "name" : "machine1",
+                    "ram" : 2,
+                    "cpuCores" : 4
+                },
+                "licenses" : [
+                    {
+                        "name" : "Lic1"
+                    },
+                    {
+                        "name" : "Lic2"
+                    }
+                ]
             },
             "metadata" : {
             }
