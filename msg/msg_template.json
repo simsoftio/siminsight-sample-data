@@ -37,23 +37,15 @@
                     "ram" : 2,
                     "cpuCores" : 4
                 },
-                "licenses" : [
-                    {
-                        "name" : "Lic1"
-                    },
-                    {
-                        "name" : "Lic2"
-                    }
-                ]
+                "licenses" : []
             },
             "project": "savannah",
             "org" : "hd_vision",
             "user": "gipa",
             "customer" : "cisco",
-            "result" : "pass|fail|error|aborted|timeout|other",
-            "signature" : {
-                "msg" : "cover43:unknown",
-                "code" : 13123
+            "result" : {
+                "status" : "pass|fail|error|aborted|timeout|other",
+                "msg" : "regression was killed"
             },
             "metadata" : {
                 
@@ -86,15 +78,14 @@
             "config" : "fast",
             "dir": "/home/scratch/savannah/gipa/regress/jdp/regr_5e57a6c9/build",
             "time_ms": 1688830732553,
-            "result" : "pass|fail|error|aborted|timeout|other",
             "jobId" : "e8185b110263", # <-- customer generated
             "project": "savannah",
             "org" : "hd_vision",
             "user": "gipa",
             "customer" : "cisco",
-            "signature" : {
-                "msg" : "",
-                "code" : 1221
+            "result" : {
+                "status" : "pass|fail|error|aborted|timeout|other",
+                "msg" : ""
             },
             "resources" : {
                 "machine" : {
@@ -143,15 +134,14 @@
             "group" : "grp-01",
             "cycles" :  82219,
             "wallclock_ms" : 2432342, 
-            "result" : "pass|fail|error|aborted|timeout|other",
             "project": "savannah",
             "org" : "hd_vision",
             "user": "gipa",
             "customer" : "cisco",
             "waveformFile" : "/home/scratch/nile/dikar/regress/ebl/regr_c7993777/test/waveform.txt",
-            "signature" : {
-                "msg" : "sign07:unknown",
-                "code" : 23234
+            "result" : {
+                "status" : "pass|fail|error|aborted|timeout|other",
+                "msg" : ""
             },
             "resources" : {
                 "machine" : {
@@ -213,10 +203,9 @@
                 "functional" : 100,
                 "file": "/home/scratch/nile/dikar/regress/ebl/regr_c7993777/coverage/dashboard.html"
             },
-            "result" : "pass|fail|error|aborted|timeout|other",
-            "signature" : {
-                "msg" : "cover43:unknown",
-                "code" : 2433
+            "result" : {
+                "status" : "pass|fail|error|aborted|timeout|other",
+                "msg" : ""
             },
             "resources" : {
                 "machine" : {
