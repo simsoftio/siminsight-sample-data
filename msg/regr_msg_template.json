@@ -1,0 +1,63 @@
+{
+    "version": "0.1",
+    "msgId": "0f0958d0-6f47-43a7-99c3-e8185b110263",     # <--- msgId : siminsight client generated
+    "msgType": "regression",
+    "msgData": {
+        "action": "start|end",
+        "id": "regr_<ms_ts(epoch)>_seed(3)", # <-- siminsight client generated [same for start and end]
+        "name": "regr_166bad16",
+        "cmd": "regr start usb master",
+        "component": "usb",
+        "subComponent": ["subBlk01"],  # <-- optional
+        "config" : "fast",
+        "dir": "/home/scratch/savannah/gipa/regress/usb/regr_166bad16",
+        "host" : "pro798",
+        "seed" : 1413817172,
+        "branch": {
+            "name": "master",
+            "version": "f0278f76-0037-4dac-aa2f-11b33dd1",
+            "update_ts" : 1688830732553
+        },
+        "time_ms": 1688830732553,
+        "jobId" : "e8185b110263", # <-- customer generated
+        "jobs": {
+            "build": 2,
+            "test": 100,
+            "coverage" : 0
+        },
+        "planned_jobs" : {
+            "build": 0,
+            "test": 100,
+            "coverage" : 0
+        },
+        "resources" : {
+            "machine" : {
+                "name" : "machine1",
+                "ram" : 2,
+                "cpuCores" : 4
+            },
+            "licenses" : []
+        },
+        "project": "savannah",
+        "org" : "hd_vision",
+        "user": "gipa",
+        "customer" : "cisco",
+        "result" : {
+            "status" : "pass|fail|error|aborted|timeout|other",
+            "msg" : "regression was killed"
+        },
+        "metadata" : {
+            
+        }
+    },
+    "msgMetadata": {
+        "createTime" : 1688830732553,
+        "client" : "python",
+        "checksum" : "4700b0c7104da316d34357f17d0fb05989e35d0a8ab0495ecf813b36a009a6f8",
+        "queue" : {
+            "name" : "default",
+            "enqueue_ts" : 1688830732553,
+            "dequeue_ts" : <TB Added by Msg Processor>
+        }
+    }
+}

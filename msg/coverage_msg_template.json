@@ -1,0 +1,63 @@
+{
+    "version": "0.1",
+    "msgId": "0f0958d0-6f47-43a7-99c3-e8185b110263",
+    "msgType": "coverage",
+    "msgData": {
+        "action": "start|end",
+        "name" : "cover_123",
+        "id": "coverage_<ms_ts(epoch)>_seed(3)", # <-- siminsight client generated [same for start and end]
+        "regrId" : "regr_<ms_ts(epoch)>_seed(3)",
+        "buildId" : "build_<ms_ts(epoch)>_seed(3)",
+        "cmd": "make coverage ack master",
+        "host" : "pro728",
+        "seed" : 1413817172,
+        "dir": "/home/scratch/nile/dikar/regress/ebl/regr_c7993777/coverage/cover_123",
+        "jobId" : "e8185b110263", # <-- customer generated
+        "time_ms": 1688830732553,
+        "project": "savannah",
+        "org" : "hd_vision",
+        "user": "gipa",
+        "config" : "fast",
+        "customer" : "cisco",
+        "coverage" :  {
+            "code" : {
+                "line" : 92,
+                "statement" : 76,
+                "condition" : 45,
+                "expression": 56,
+                "toggle" : 34,
+                "total" : 45
+            },
+            "functional" : 100,
+            "file": "/home/scratch/nile/dikar/regress/ebl/regr_c7993777/coverage/dashboard.html"
+        },
+        "result" : {
+            "status" : "pass|fail|error|aborted|timeout|other",
+            "msg" : ""
+        },
+        "resources" : {
+            "machine" : {
+                "name" : "machine1",
+                "ram" : 2,
+                "cpuCores" : 4
+            },
+            "licenses" : [
+                {
+                    "name" : "Lic1"
+                },
+                {
+                    "name" : "Lic2"
+                }
+            ]
+        },
+        "metadata" : {
+        }
+    },
+    "msgMetadata": {
+        "createTime" : 1688830732553,
+        "client" : "python",
+        "checksum" : "4700b0c7104da316d34357f17d0fb05989e35d0a8ab0495ecf813b36a009a6f8",
+        "enqueue_time" : 1688830732553,
+        "dequeue_time" : <TB Added by Msg Processor>
+    }
+}
