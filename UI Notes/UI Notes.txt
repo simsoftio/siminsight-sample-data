@@ -1,0 +1,18 @@
+
+
+General :     
+    # 1 #   Breadcrum Support : 
+            ORG > PROJECT > COMPONENT > REGRESSION > regr_1100eae7
+    # 2 #   RegEx support through out the product
+    # 3 #   REST API Support (optional) - Design accordingly.
+    # 4 #   Hyperlink based navigation must be prevelent accross the product.
+
+
+Regressions Page : 
+    # 1 # List of signatures for the regression & Links to signatures page.
+    # 2 # Derive duration from (end_time-start_time)
+    # 3 # Display Columns for each : specify the number of JOBS (BUILDS + TESTS + COVERAGE)
+            TOTAL | PASS | FAIL | KILLED | RUNNING | QUEUED | OTHERS 
+    # 4 # Display pass percentage columns
+
+
