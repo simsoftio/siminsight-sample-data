@@ -5,14 +5,14 @@
     "msgData": {
         "action": "start|end",
         "name" : "cover_123",
-        "id": "coverage_<ms_ts(epoch)>_seed(3)", # <-- siminsight client generated [same for start and end]
+        "id": "coverage_<ms_ts(epoch)>_seed(3)",
         "regrId" : "regr_<ms_ts(epoch)>_seed(3)",
         "buildId" : "build_<ms_ts(epoch)>_seed(3)",
         "cmd": "make coverage ack master",
         "host" : "pro728",
         "seed" : 1413817172,
         "dir": "/home/scratch/nile/dikar/regress/ebl/regr_c7993777/coverage/cover_123",
-        "jobId" : "e8185b110263", # <-- customer generated
+        "jobId" : "e8185b110263",
         "time_ms": 1688830732553,
         "project": "savannah",
         "org" : "hd_vision",
@@ -26,6 +26,8 @@
                 "condition" : 45,
                 "expression": 56,
                 "toggle" : 34,
+                "fsm": 25,
+                "assert" : 35,
                 "total" : 45
             },
             "functional" : 100,
@@ -37,9 +39,10 @@
         },
         "resources" : {
             "machine" : {
-                "name" : "machine1",
+                "name" : "pro728",
                 "ram" : 2,
-                "cpuCores" : 4
+                "cpuCores" : 4, 
+                "diskInMB" : 64
             },
             "licenses" : [
                 {

@@ -5,16 +5,16 @@
     "msgData": {
         "action": "start|end",
         "name" : "build_1234",
-        "id": "build_<ms_ts(epoch)>_seed(3)",  # <-- siminsight client generated [same for start and end]
+        "id": "build_<ms_ts(epoch)>_seed(3)",  //# <-- siminsight client generated [same for start and end]
         "regrId": "regr_<ms_ts(epoch)>_seed(3)",          
-        "number": "1",
+        // "number": "1",
         "cmd": "make build jdp master",
         "host" : "pro798",
         "seed" : 1413817172,
         "config" : "fast",
         "dir": "/home/scratch/savannah/gipa/regress/jdp/regr_5e57a6c9/build",
         "time_ms": 1688830732553,
-        "jobId" : "e8185b110263", # <-- customer generated
+        "jobId" : "e8185b110263", 
         "project": "savannah",
         "org" : "hd_vision",
         "user": "gipa",
@@ -27,7 +27,8 @@
             "machine" : {
                 "name" : "machine1",
                 "ram" : 2,
-                "cpuCores" : 4
+                "cpuCores" : 4, 
+                "diskInMB" : 64
             },
             "licenses" : [
                 {

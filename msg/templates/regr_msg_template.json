@@ -4,7 +4,7 @@
     "msgType": "regression",                                //-- MsgType : Regression, Build, Test, Coverage
     "msgData": {
         "action": "start|end",
-        "id": "regr_<ms_ts(epoch)>_seed(3)",                //-- Unique, identifies the regression into customer system
+        "uniqueId": "regr_<ms_ts(epoch)>_seed(3)",                //-- Unique, identifies the regression into customer system
         "name": "regr_166bad16",                            //-- Not Unique, Name of regression
         "cmd": "regr start usb master",                     //-- Command to reproduct or launch regression
         "component": "usb",                                 //-- Regression component, specifies the unit on which regression is launched
@@ -37,7 +37,7 @@
                 "name" : "machine1",
                 "ram" : 2,
                 "cpuCores" : 4,
-                "disk_MB": 64              //-- (NEW) Will specify in MegaBytes
+                "diskInMB": 64              //-- (NEW) Will specify in MegaBytes
             },
             "licenses" : []
         },

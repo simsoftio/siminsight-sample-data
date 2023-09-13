@@ -17,7 +17,7 @@
         "time_ms": 1688830732553,
         "group" : "grp-01",
         "cycles" :  82219,
-        "wallclock_ms" : 2432342, 
+        "simulation_ps" : 2432342, 
         "project": "savannah",
         "org" : "hd_vision",
         "user": "gipa",
@@ -31,7 +31,8 @@
             "machine" : {
                 "name" : "machine1",
                 "ram" : 2,
-                "cpuCores" : 4
+                "cpuCores" : 4, 
+                "diskInMB" : 64
             },
             "licenses" : [
                 {
