@@ -1,49 +1,53 @@
 {
-    "version": "0.1",
-    "msgId": "0f0958d0-6f47-43a7-99c3-e8185b110263",     # <--- msgId : siminsight client generated
-    "msgType": "regression",
+    "version": "0.1",                                       //-- version of the msgSchema
+    "msgId": "0f0958d0-6f47-43a7-99c3-e8185b110263",        //-- msgId : siminsight client generated
+    "msgType": "regression",                                //-- MsgType : Regression, Build, Test, Coverage
     "msgData": {
         "action": "start|end",
-        "id": "regr_<ms_ts(epoch)>_seed(3)", # <-- siminsight client generated [same for start and end]
-        "name": "regr_166bad16",
-        "cmd": "regr start usb master",
-        "component": "usb",
-        "subComponent": ["subBlk01"],  # <-- optional
-        "config" : "fast",
-        "dir": "/home/scratch/savannah/gipa/regress/usb/regr_166bad16",
-        "host" : "pro798",
-        "seed" : 1413817172,
+        "id": "regr_<ms_ts(epoch)>_seed(3)",                //-- Unique, identifies the regression into customer system
+        "name": "regr_166bad16",                            //-- Not Unique, Name of regression
+        "cmd": "regr start usb master",                     //-- Command to reproduct or launch regression
+        "component": "usb",                                 //-- Regression component, specifies the unit on which regression is launched
+        "subComponent": ["subBlk01"],                       //-- Regression subcomponent, specifies the subcomponent if any otherwise it will carry empty list   
+        "config" : "fast",                                  //-- Specifies the regression config (String)
+        "dir": "/home/scratch/savannah/gipa/regress/usb/regr_166bad16", //-- Absolute path
+        "host" : "pro798",                                  //-- Machine name identifier
+        "seed" : 1413817172,                                //-- Seed of the regression
         "branch": {
-            "name": "master",
+            "repo": "Mountains",                            //-- (NEW)(Optional) defines the repository name of branch
+            "name": "master",                               
             "version": "f0278f76-0037-4dac-aa2f-11b33dd1",
-            "update_ts" : 1688830732553
+            "update_ts" : 1688830732553,
+            "localChanges" : "a/b/c/d/dev.sv,a/b/d/e/test.sv"   //-- (NEW)(Optional) string, list of files local to regrssion
         },
-        "time_ms": 1688830732553,
-        "jobId" : "e8185b110263", # <-- customer generated
+        "time_ms": 1688830732553,                           //-- Job time (Start Time, End Time depnding on Action)
+        "jobId" : "e8185b110263",                           //-- Unique Job ID from client systems
         "jobs": {
             "build": 2,
             "test": 100,
             "coverage" : 0
         },
-        "planned_jobs" : {
+        "planned_jobs" : {              //-- Planned jobs (Optional field, if not populated, matches the "jobs") 
             "build": 0,
             "test": 100,
             "coverage" : 0
         },
-        "resources" : {
+        "resources" : {                 //-- For Start Action : Allocated, for End Action : Utilized resources
             "machine" : {
                 "name" : "machine1",
                 "ram" : 2,
-                "cpuCores" : 4
+                "cpuCores" : 4,
+                "disk_MB": 64              //-- (NEW) Will specify in MegaBytes
             },
             "licenses" : []
         },
         "project": "savannah",
         "org" : "hd_vision",
-        "user": "gipa",
+        "user": "gipa",                 //-- this is an unique alias/username of the user
+        // user : { "firstName" : "Elsa", "lastName" : "WirKala", "username" : "ewirkala", "email" : "ewirkala@abc.com" }
         "customer" : "cisco",
         "result" : {
-            "status" : "pass|fail|error|aborted|timeout|other",
+            "status" : "pass|fail|error|aborted|timeout|other|queued|na",
             "msg" : "regression was killed"
         },
         "metadata" : {
