@@ -24,13 +24,13 @@
         "jobId" : "e8185b110263",                           //-- Unique Job ID from client systems
         "jobs": {
             "build": 2,
-            "test": 100,
-            "coverage" : 0
+            "test": [100, 200],
+            "coverage" : [1, 0]
         },
-        "planned_jobs" : {              //-- Planned jobs (Optional field, if not populated, matches the "jobs") 
-            "build": 0,
-            "test": 100,
-            "coverage" : 0
+        "planned_jobs" : {                                  //-- Planned jobs (Optional field, if not populated, matches the "jobs") 
+            "build": 2,
+            "test": [100, 200],
+            "coverage" : [1, 0]
         },
         "resources" : {                 //-- For Start Action : Allocated, for End Action : Utilized resources
             "machine" : {
