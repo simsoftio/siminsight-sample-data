@@ -32,14 +32,14 @@
             "time_ms": 1685573984002,
             "jobId": "db0acad6",
             "jobs": {
-                "build": 1,
+                "build": ["build_1", "build_2"],
                 "test": [
                     1
                 ],
                 "coverage": 1
             },
             "planned_jobs": {
-                "build": 2,
+                "build": ["build_1", "build_2"],
                 "test": [
                     3,
                     4
