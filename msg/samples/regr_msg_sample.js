@@ -36,7 +36,7 @@
                 "test": [
                     1
                 ],
-                "coverage": 1
+                "coverage": [1]
             },
             "planned_jobs": {
                 "build": ["build_1", "build_2"],
@@ -44,7 +44,7 @@
                     3,
                     4
                 ],
-                "coverage": 1
+                "coverage": [0,1]
             },
             "resources": {
                 "machine": {
@@ -75,7 +75,7 @@
             "user": "elsa.wirkkala",
             "customer": "ZenithSemis_cust0",
             "result": {
-                "status": "na",
+                "status": "pending",
                 "msg": ""
             },
             "metadata": {}
@@ -117,7 +117,7 @@
                 "test": [
                     1
                 ],
-                "coverage": 1
+                "coverage": [1]
             },
             "planned_jobs": {
                 "build": 2,
@@ -125,7 +125,7 @@
                     3,
                     4
                 ],
-                "coverage": 1
+                "coverage": [1,0]
             },
             "resources": {
                 "machine": {

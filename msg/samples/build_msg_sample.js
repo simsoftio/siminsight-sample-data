@@ -49,7 +49,7 @@
             "user": "elsa.wirkkala",
             "customer": "ZenithSemis_cust0",
             "result": {
-                "status": "na",
+                "status": "pending",
                 "msg": ""
             },
             "metadata": {}

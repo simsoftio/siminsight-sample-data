@@ -43,7 +43,7 @@
             "user": "elsa.wirkkala",
             "customer": "ZenithSemis_cust0",
             "result": {
-                "status": "na",
+                "status": "pending",
                 "msg": ""
             },
             "metadata": {}
@@ -102,7 +102,7 @@
             "user": "elsa.wirkkala",
             "customer": "ZenithSemis_cust0",
             "result": {
-                "status": "fail",
+                "status": "pass",
                 "msg": "Dump inside dump. /democratic/computer/wide [7197625731]"
             },
             "metadata": {}

@@ -73,7 +73,10 @@
             "org": "Design_org1",
             "user": "elsa.wirkkala",
             "customer": "ZenithSemis_cust0",
-            "result": "na",
+            "result": {
+                "status": "pending",
+                "msg": ""
+            },
             "metadata": {}
         }
     },
@@ -148,7 +151,10 @@
             "org": "Design_org1",
             "user": "elsa.wirkkala",
             "customer": "ZenithSemis_cust0",
-            "result": "fail",
+            "result": {
+                "status": "fail",
+                "msg": ""
+            },
             "metadata": {}
         }
     }
