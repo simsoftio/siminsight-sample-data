@@ -33,11 +33,24 @@
             "coverage" : [1, 0]
         },
         "resources" : {                 //-- For Start Action : Allocated, for End Action : Utilized resources
-            "machine" : {
-                "name" : "machine1",
-                "ram" : 2,
-                "cpuCores" : 4,
-                "diskInMB": 64              //-- (NEW) Will specify in MegaBytes
+            "machine": {
+                "name": "Machine7",
+                "os": "mac",
+                "env_vars": "base+d(PROJECT_PATH=/home/scratch, PROJECT_GROUP=ABCD, PROJECT_PRIORITY=HIGH)+D(SIMTOOL=VCS1.1)+HoneyDew(1.1)",
+                "user_groups": [
+                    "Hardware"
+                ],
+                "task_id": 1421,
+                "submitted_by_host": "Machine41",
+                "cpu_cores": 256,
+                "ram_gb_req": 32,
+                "ram_gb_usage": 1,
+                "hdd_mb_usage": 947,
+                "swap_mem_gb_usage": 375,
+                "licenses": [
+                    "vcs12",
+                    "vcs10"
+                ]
             },
             "licenses" : []
         },

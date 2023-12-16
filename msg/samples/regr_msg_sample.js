@@ -1,159 +1,187 @@
-[
-    
-    {
-        "msgId": "23c8043f-27df-4c70-afb3-4d1860471267",
-        "version": "0.1",
-        "msgType": "regression",
-        "msgMetadata": {
-            "createTime": 1685573984002,
-            "client": "python",
-            "checksum": "4700b0c7104da316d34357f17d0fb05989e35d0a8ab0495ecf813b36a009a6f8",
-            "queue": {
-                "name": "default",
-                "enqueue_ts": 1685573984002,
-                "dequeue_ts": 1685573984007
-            }
-        },
-        "msgData": {
-            "action": "start",
-            "id": "regr_1693779004794_756",
-            "name": "regr_1100eae7",
-            "cmd": "Usb end start master.",
-            "component": "i2c_comp6",
-            "config": "idea",
-            "dir": "/them/two/give/easy/Mr/decade/already/regr_1100eae7",
-            "host": "host88",
-            "seed": 9187235040,
-            "branch": {
-                "name": "perf/w-37326",
-                "version": "6c3099f1-7bcd-4796-b2cf-18a64a91167a",
-                "update_ts": 1693779004794
-            },
-            "time_ms": 1685573984002,
-            "jobId": "db0acad6",
-            "jobs": {
-                "build": ["build_1", "build_2"],
-                "test": [
-                    1
-                ],
-                "coverage": 1
-            },
-            "planned_jobs": {
-                "build": ["build_1", "build_2"],
-                "test": [
-                    3,
-                    4
-                ],
-                "coverage": 1
-            },
-            "resources": {
-                "machine": {
-                    "name": "Machine2",
-                    "ram": 4096,
-                    "cpuCores": 8
-                },
-                "licenses": [
-                    {
-                        "name": "Lic1"
-                    },
-                    {
-                        "name": "Lic3"
-                    },
-                    {
-                        "name": "Lic7"
-                    },
-                    {
-                        "name": "Lic0"
-                    },
-                    {
-                        "name": "Lic4"
-                    }
-                ]
-            },
-            "project": "Helix_proj0",
-            "org": "Design_org1",
-            "user": "elsa.wirkkala",
-            "customer": "ZenithSemis_cust0",
-            "result": {
-                "status": "na",
-                "msg": ""
-            },
-            "metadata": {}
+[{
+    "msgId": "01301c62-e75f-46bc-97d5-a0f1780c844f",
+    "version": "0.1",
+    "msgType": "regression",
+    "msgMetadata": {
+        "createTime": 1700886833000,
+        "client": "python",
+        "checksum": "4700b0c7104da316d34357f17d0fb05989e35d0a8ab0495ecf813b36a009a6f8",
+        "queue": {
+            "name": "default",
+            "enqueue_ts": 1700886833000,
+            "dequeue_ts": 1700886833003
         }
     },
-    {
-        "msgId": "77332394-13f7-4e33-b1b8-2e231bca9f05",
-        "version": "0.1",
-        "msgType": "regression",
-        "msgMetadata": {
-            "createTime": 1685573984004,
-            "client": "python",
-            "checksum": "4700b0c7104da316d34357f17d0fb05989e35d0a8ab0495ecf813b36a009a6f8",
-            "queue": {
-                "name": "default",
-                "enqueue_ts": 1685573984004,
-                "dequeue_ts": 1685573984009
-            }
+    "msgData": {
+        "action": "start",
+        "id": "regr_1702709145496_45",
+        "name": "regr_ac365a06",
+        "cmd": "Master start end master.",
+        "component": "firewire_comp1",
+        "config": "raise",
+        "dir": "/trial/meet/investment/sing/region/yourself/rule/regr_ac365a06",
+        "host": "host48",
+        "seed": 6909084958,
+        "branch": {
+            "name": "chore/w-68405",
+            "version": "e4a8f0c8-bc35-4b19-bf1d-6e68c32c723b",
+            "update_ts": 1702709145496
         },
-        "msgData": {
-            "action": "end",
-            "id": "regr_1693779004794_756",
-            "name": "regr_1100eae7",
-            "cmd": "Usb end start master.",
-            "component": "i2c_comp6",
-            "config": "idea",
-            "dir": "/them/two/give/easy/Mr/decade/already/regr_1100eae7",
-            "host": "host88",
-            "seed": 9187235040,
-            "branch": {
-                "name": "perf/w-37326",
-                "version": "6c3099f1-7bcd-4796-b2cf-18a64a91167a",
-                "update_ts": 1693779004794
-            },
-            "time_ms": 1685573984004,
-            "jobId": "db0acad6",
-            "jobs": {
-                "build": 1,
-                "test": [
-                    1
+        "time_ms": 1700886833000,
+        "jobId": "de009a8f",
+        "jobs": {
+            "build": [
+                "build_5f8221f1",
+                "build_2f29034e"
+            ],
+            "test": [
+                34,
+                33
+            ],
+            "coverage": [
+                0,
+                1
+            ]
+        },
+        "planned_jobs": {
+            "build": [
+                "build_5f8221f1",
+                "build_2f29034e"
+            ],
+            "test": [
+                34,
+                33
+            ],
+            "coverage": [
+                0,
+                1
+            ]
+        },
+        "resources": {
+            "machine": {
+                "name": "Machine7",
+                "os": "mac",
+                "env_vars": "base+d(PROJECT_PATH=/home/scratch, PROJECT_GROUP=ABCD, PROJECT_PRIORITY=HIGH)+D(SIMTOOL=VCS1.1)+HoneyDew(1.1)",
+                "user_groups": [
+                    "Hardware"
                 ],
-                "coverage": 1
-            },
-            "planned_jobs": {
-                "build": 2,
-                "test": [
-                    3,
-                    4
-                ],
-                "coverage": 1
-            },
-            "resources": {
-                "machine": {
-                    "name": "Machine5",
-                    "ram": 128,
-                    "cpuCores": 8
-                },
+                "task_id": 1421,
+                "submitted_by_host": "Machine41",
+                "cpu_cores": 256,
+                "ram_gb_req": 32,
+                "ram_gb_usage": 1,
+                "hdd_mb_usage": 947,
+                "swap_mem_gb_usage": 375,
                 "licenses": [
-                    {
-                        "name": "Lic4"
-                    },
-                    {
-                        "name": "Lic3"
-                    },
-                    {
-                        "name": "Lic0"
-                    }
+                    "vcs12",
+                    "vcs10"
                 ]
             },
-            "project": "Helix_proj0",
-            "org": "Design_org1",
-            "user": "elsa.wirkkala",
-            "customer": "ZenithSemis_cust0",
-            "result": {
-                "status": "fail",
-                "msg": "Live inside inside. /statement/senior/summer [7748554493]"
-            },
-            "metadata": {}
-        }
+            "licenses": []
+        },
+        "project": "Axiom_proj4",
+        "org": "Design_org2",
+        "user": "german.garcia",
+        "customer": "ExoSemis_cust0",
+        "result": {
+            "status": "pass",
+            "msg": ""
+        },
+        "metadata": {}
     }
-]
+},
+{
+    "msgId": "4eec6e25-b6c0-4f82-b1c8-6232e99e07b2",
+    "version": "0.1",
+    "msgType": "regression",
+    "msgMetadata": {
+        "createTime": 1700888348001,
+        "client": "python",
+        "checksum": "4700b0c7104da316d34357f17d0fb05989e35d0a8ab0495ecf813b36a009a6f8",
+        "queue": {
+            "name": "default",
+            "enqueue_ts": 1700888348001,
+            "dequeue_ts": 1700888348005
+        }
+    },
+    "msgData": {
+        "action": "end",
+        "id": "regr_1702709145496_45",
+        "name": "regr_ac365a06",
+        "cmd": "Master start end master.",
+        "component": "firewire_comp1",
+        "config": "raise",
+        "dir": "/trial/meet/investment/sing/region/yourself/rule/regr_ac365a06",
+        "host": "host48",
+        "seed": 6909084958,
+        "branch": {
+            "name": "chore/w-68405",
+            "version": "e4a8f0c8-bc35-4b19-bf1d-6e68c32c723b",
+            "update_ts": 1702709145496
+        },
+        "time_ms": 1700888348001,
+        "jobId": "de009a8f",
+        "jobs": {
+            "build": [
+                "build_5f8221f1",
+                "build_2f29034e"
+            ],
+            "test": [
+                34,
+                33
+            ],
+            "coverage": [
+                0,
+                1
+            ]
+        },
+        "planned_jobs": {
+            "build": [
+                "build_5f8221f1",
+                "build_2f29034e"
+            ],
+            "test": [
+                34,
+                33
+            ],
+            "coverage": [
+                0,
+                1
+            ]
+        },
+        "resources": {
+            "machine": {
+                "name": "Machine10",
+                "os": "mac",
+                "env_vars": "base+d(PROJECT_PATH=/home/scratch, PROJECT_GROUP=ABCD, PROJECT_PRIORITY=HIGH)+D(SIMTOOL=VCS1.1)+HoneyDew(1.1)",
+                "user_groups": [
+                    "insight",
+                    "fpga"
+                ],
+                "task_id": 1234,
+                "submitted_by_host": "Machine1995",
+                "cpu_cores": 512,
+                "ram_gb_req": 1024,
+                "ram_gb_usage": 256,
+                "hdd_mb_usage": 1453,
+                "swap_mem_gb_usage": 1778,
+                "licenses": [
+                    "vcs9",
+                    "vcs6",
+                    "vcs9",
+                    "vcs2"
+                ]
+            },
+            "licenses": []
+        },
+        "project": "Axiom_proj4",
+        "org": "Design_org2",
+        "user": "german.garcia",
+        "customer": "ExoSemis_cust0",
+        "result": {
+            "status": "fail",
+            "msg": "Test Failure"
+        },
+        "metadata": {}
+    }
+}]

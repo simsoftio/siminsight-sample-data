@@ -38,11 +38,26 @@
             "msg" : ""
         },
         "resources" : {
-            "machine" : {
-                "name" : "pro728",
-                "ram" : 2,
-                "cpuCores" : 4, 
-                "diskInMB" : 64
+            "machine": {
+                "name": "Machine12",
+                "os": "windows",
+                "env_vars": "base+d(PROJECT_PATH=/home/scratch, PROJECT_GROUP=ABCD, PROJECT_PRIORITY=HIGH)+D(SIMTOOL=VCS1.1)+HoneyDew(1.1)",
+                "user_groups": [
+                    "dft"
+                ],
+                "task_id": 231,
+                "submitted_by_host": "Machine1259",
+                "cpu_cores": 8,
+                "ram_gb_req": 512,
+                "ram_gb_usage": 1024,
+                "hdd_mb_usage": 408,
+                "swap_mem_gb_usage": 706,
+                "licenses": [
+                    "vcs6",
+                    "vcs10",
+                    "vcs10",
+                    "vcs6"
+                ]
             },
             "licenses" : [
                 {
