@@ -40,9 +40,9 @@
                 "submitted_by_host": "Machine531",
                 "cpu_cores": 1,
                 "ram_gb_req": 256,
-                "ram_gb_usage": 4,
-                "hdd_mb_usage": 817,
-                "swap_mem_gb_usage": 1992,
+                "ram_usage_gb": 4,
+                "disk_usage_mb": 817,
+                "swap_mem_usage_gb": 1992,
                 "licenses": [
                     "vcs9",
                     "vcs12",
@@ -106,9 +106,9 @@
                 "submitted_by_host": "Machine137",
                 "cpu_cores": 32,
                 "ram_gb_req": 4,
-                "ram_gb_usage": 1024,
-                "hdd_mb_usage": 975,
-                "swap_mem_gb_usage": 695,
+                "ram_usage_gb": 1024,
+                "disk_usage_mb": 975,
+                "swap_mem_usage_gb": 695,
                 "licenses": [
                     "vcs2",
                     "vcs10",
@@ -173,9 +173,9 @@
                 "submitted_by_host": "Machine500",
                 "cpu_cores": 512,
                 "ram_gb_req": 16,
-                "ram_gb_usage": 1,
-                "hdd_mb_usage": 1838,
-                "swap_mem_gb_usage": 1396,
+                "ram_usage_gb": 1,
+                "disk_usage_mb": 1838,
+                "swap_mem_usage_gb": 1396,
                 "licenses": [
                     "vcs6",
                     "vcs2"

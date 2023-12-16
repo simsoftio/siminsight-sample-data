@@ -49,9 +49,9 @@
                 "submitted_by_host": "Machine1259",
                 "cpu_cores": 8,
                 "ram_gb_req": 512,
-                "ram_gb_usage": 1024,
-                "hdd_mb_usage": 408,
-                "swap_mem_gb_usage": 706,
+                "ram_usage_gb": 1024,
+                "disk_usage_mb": 408,
+                "swap_mem_usage_gb": 706,
                 "licenses": [
                     "vcs6",
                     "vcs10",

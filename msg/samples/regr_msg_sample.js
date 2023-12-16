@@ -69,9 +69,9 @@
                 "submitted_by_host": "Machine41",
                 "cpu_cores": 256,
                 "ram_gb_req": 32,
-                "ram_gb_usage": 1,
-                "hdd_mb_usage": 947,
-                "swap_mem_gb_usage": 375,
+                "ram_usage_gb": 1,
+                "disk_usage_mb": 947,
+                "swap_mem_usage_gb": 375,
                 "licenses": [
                     "vcs12",
                     "vcs10"
@@ -162,9 +162,9 @@
                 "submitted_by_host": "Machine1995",
                 "cpu_cores": 512,
                 "ram_gb_req": 1024,
-                "ram_gb_usage": 256,
-                "hdd_mb_usage": 1453,
-                "swap_mem_gb_usage": 1778,
+                "ram_usage_gb": 256,
+                "disk_usage_mb": 1453,
+                "swap_mem_usage_gb": 1778,
                 "licenses": [
                     "vcs9",
                     "vcs6",

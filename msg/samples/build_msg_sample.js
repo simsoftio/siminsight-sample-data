@@ -40,9 +40,9 @@
                 "submitted_by_host": "Machine1310",
                 "cpu_cores": 4,
                 "ram_gb_req": 2048,
-                "ram_gb_usage": 4,
-                "hdd_mb_usage": 390,
-                "swap_mem_gb_usage": 752,
+                "ram_usage_gb": 4,
+                "disk_usage_mb": 390,
+                "swap_mem_usage_gb": 752,
                 "licenses": [
                     "vcs6",
                     "vcs2"
@@ -100,9 +100,9 @@
                 "submitted_by_host": "Machine1259",
                 "cpu_cores": 8,
                 "ram_gb_req": 512,
-                "ram_gb_usage": 1024,
-                "hdd_mb_usage": 408,
-                "swap_mem_gb_usage": 706,
+                "ram_usage_gb": 1024,
+                "disk_usage_mb": 408,
+                "swap_mem_usage_gb": 706,
                 "licenses": [
                     "vcs6",
                     "vcs10",
