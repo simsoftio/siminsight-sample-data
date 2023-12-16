@@ -43,7 +43,7 @@
                 "task_id": 1421,
                 "submitted_by_host": "Machine41",
                 "cpu_cores": 256,
-                "ram_gb_req": 32,
+                "ram_req_gb": 32,
                 "ram_usage_gb": 1,
                 "disk_usage_mb": 947,
                 "swap_mem_usage_gb": 375,

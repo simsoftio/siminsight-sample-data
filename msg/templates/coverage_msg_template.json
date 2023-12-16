@@ -48,7 +48,7 @@
                 "task_id": 231,
                 "submitted_by_host": "Machine1259",
                 "cpu_cores": 8,
-                "ram_gb_req": 512,
+                "ram_req_gb": 512,
                 "ram_usage_gb": 1024,
                 "disk_usage_mb": 408,
                 "swap_mem_usage_gb": 706,

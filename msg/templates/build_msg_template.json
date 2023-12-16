@@ -37,7 +37,7 @@
                 "task_id": 1790,
                 "submitted_by_host": "Machine1310",
                 "cpu_cores": 4,
-                "ram_gb_req": 2048,
+                "ram_req_gb": 2048,
                 "ram_usage_gb": 4,
                 "disk_usage_mb": 390,
                 "swap_mem_usage_gb": 752,
