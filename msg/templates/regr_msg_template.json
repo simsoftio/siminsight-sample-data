@@ -8,6 +8,7 @@
         "name": "regr_166bad16",                            //-- Not Unique, Name of regression
         "cmd": "regr start usb master",                     //-- Command to reproduct or launch regression
         "component": "usb",                                 //-- Regression component, specifies the unit on which regression is launched
+        "category": "nightly",                                  //-- Regression category, specifies the category of regression
         "subComponent": ["subBlk01"],                       //-- Regression subcomponent, specifies the subcomponent if any otherwise it will carry empty list   
         "config" : "fast",                                  //-- Specifies the regression config (String)
         "dir": "/home/scratch/savannah/gipa/regress/usb/regr_166bad16", //-- Absolute path

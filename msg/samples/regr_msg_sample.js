@@ -18,6 +18,7 @@
         "name": "regr_ac365a06",
         "cmd": "Master start end master.",
         "component": "firewire_comp1",
+        "category": "nightly",
         "config": "raise",
         "dir": "/trial/meet/investment/sing/region/yourself/rule/regr_ac365a06",
         "host": "host48",
