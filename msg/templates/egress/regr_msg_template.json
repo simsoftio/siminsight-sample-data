@@ -1,0 +1,37 @@
+{
+    "version": "0.1",                                       //-- version of the msgSchema
+    "msgId": "0f0958d0-6f47-43a7-99c3-e8185b110263",        //-- msgId : siminsight client generated
+    "msgType": "regression",                                //-- MsgType : Regression, Build, Test, Coverage
+    "msgData": {
+        "action": "rerun",                                  //-- Unique, identifies the regression into customer system
+        "name": "regr_166bad16",                            //-- Not Unique, Name of regression
+        "cmd": "regr start usb master",                     //-- Command to reproduct or launch regression
+        "component": "usb",                                 //-- Regression component, specifies the unit on which regression is launched
+        "category": "nightly",                              //-- Regression category, specifies the category of regression
+        "config" : "fast",                                  //-- Specifies the regression config (String)
+        "dir": "/home/scratch/savannah/gipa/regress/usb/regr_166bad16", //-- Absolute path
+        "seed" : 1413817172,                                //-- Seed of the regression
+        "branch": {
+            "name": "feature/lhunt", 
+            "version": "00cb42ba-5a72-491b-9bf2-d6cd8d38ff65", 
+        "update_ts": 1704622958611
+        },
+        "time_ms": 1688830732553,                           //-- Job time (Start Time, End Time depnding on Action)
+        "project": "savannah",
+        "org" : "hd_vision",
+        "user": "gipa",
+        "customer" : "cisco",
+        "metadata" : {
+        }
+    },
+    "msgMetadata": {
+        "createTime" : 1688830732553,
+        "client" : "insight",
+        "checksum" : "4700b0c7104da316d34357f17d0fb05989e35d0a8ab0495ecf813b36a009a6f8",
+        "queue" : {
+            "name" : "default",
+            "enqueue_ts" : 1688830732553,
+            "dequeue_ts" : <TB Added by Msg Processor>
+        }
+    }
+}
